@@ -1,0 +1,50 @@
+﻿body {
+    border: 1px solid;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.flex_B-Box {
+    width: 95%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.href {
+    margin: auto;
+}
+
+.flex_Text h2 {
+    font-size: 50px;
+    margin: 100px auto;
+}
+
+@media (max-width: 1000px) {
+
+    .flex_A-Box h1{
+        font-size: 37px;
+    }
+
+    .flex_Text h2 {
+        font-size: 32px;
+        margin: 25px auto auto auto;
+        margin: 100px auto;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .flex_A-Box h1{
+        font-size: 25px;
+    }
+
+    .flex_Text h2 {
+        font-size: 10px;
+        margin: 25px auto auto auto;
+    }
+}
